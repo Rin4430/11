@@ -5,3 +5,8 @@ def compute_probs(neg,pos):
 
 def test_it():
   return 'loaded'
+compute_probs
+            cond_prob
+cond_probs_product
+prior_prob
+naive_bayes
