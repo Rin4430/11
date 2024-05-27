@@ -1,7 +1,7 @@
-def test_load():
+def compute_probs(neg,pos):
+  p0 = neg/(neg+pos)
+  p1 = pos/(neg+pos)
+  return [p0,p1]
+
+def test_it():
   return 'loaded'
-  compute_probs
-cond_prob
-cond_probs_product
-prior_prob
-naive_bayes
